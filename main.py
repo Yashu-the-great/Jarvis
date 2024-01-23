@@ -16,9 +16,6 @@ from c_tools import (
 )
 from os import system, environ
 
-environ["GOOGLE_CSE_ID"] = "53d301d53e0fc4ce9"
-environ["GOOGLE_API_KEY"] = "AIzaSyDLW_v_B1JUdFYpMlAqBk7hIBDsdhjf0k0"
-
 llm = Ollama(
     model="mistral:instruct",
     verbose=True,
